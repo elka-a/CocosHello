@@ -133,6 +133,15 @@
 		8E311C0D16D648C300BD7D31 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E311C0C16D648C300BD7D31 /* AppDelegate.m */; };
 		8E311C1016D648C300BD7D31 /* HelloWorldLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E311C0F16D648C300BD7D31 /* HelloWorldLayer.m */; };
 		8E311C1316D648C300BD7D31 /* IntroLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E311C1216D648C300BD7D31 /* IntroLayer.m */; };
+		8E311C2416D64C9F00BD7D31 /* monster-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E311C1B16D64C9F00BD7D31 /* monster-hd.png */; };
+		8E311C2516D64C9F00BD7D31 /* monster.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E311C1C16D64C9F00BD7D31 /* monster.png */; };
+		8E311C2616D64C9F00BD7D31 /* player-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E311C1D16D64C9F00BD7D31 /* player-hd.png */; };
+		8E311C2716D64C9F00BD7D31 /* player.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E311C1E16D64C9F00BD7D31 /* player.png */; };
+		8E311C2816D64C9F00BD7D31 /* projectile-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E311C1F16D64C9F00BD7D31 /* projectile-hd.png */; };
+		8E311C2916D64C9F00BD7D31 /* projectile.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E311C2016D64C9F00BD7D31 /* projectile.png */; };
+		8E311C2A16D64C9F00BD7D31 /* background-music-aac.caf in Resources */ = {isa = PBXBuildFile; fileRef = 8E311C2216D64C9F00BD7D31 /* background-music-aac.caf */; };
+		8E311C2B16D64C9F00BD7D31 /* pew-pew-lei.caf in Resources */ = {isa = PBXBuildFile; fileRef = 8E311C2316D64C9F00BD7D31 /* pew-pew-lei.caf */; };
+		8E311C2E16D674D500BD7D31 /* GameOverLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E311C2D16D674D500BD7D31 /* GameOverLayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -398,6 +407,16 @@
 		8E311C0F16D648C300BD7D31 /* HelloWorldLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldLayer.m; sourceTree = "<group>"; };
 		8E311C1116D648C300BD7D31 /* IntroLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntroLayer.h; sourceTree = "<group>"; };
 		8E311C1216D648C300BD7D31 /* IntroLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntroLayer.m; sourceTree = "<group>"; };
+		8E311C1B16D64C9F00BD7D31 /* monster-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "monster-hd.png"; sourceTree = "<group>"; };
+		8E311C1C16D64C9F00BD7D31 /* monster.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monster.png; sourceTree = "<group>"; };
+		8E311C1D16D64C9F00BD7D31 /* player-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "player-hd.png"; sourceTree = "<group>"; };
+		8E311C1E16D64C9F00BD7D31 /* player.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = player.png; sourceTree = "<group>"; };
+		8E311C1F16D64C9F00BD7D31 /* projectile-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "projectile-hd.png"; sourceTree = "<group>"; };
+		8E311C2016D64C9F00BD7D31 /* projectile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = projectile.png; sourceTree = "<group>"; };
+		8E311C2216D64C9F00BD7D31 /* background-music-aac.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "background-music-aac.caf"; sourceTree = "<group>"; };
+		8E311C2316D64C9F00BD7D31 /* pew-pew-lei.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "pew-pew-lei.caf"; sourceTree = "<group>"; };
+		8E311C2C16D674D500BD7D31 /* GameOverLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameOverLayer.h; sourceTree = "<group>"; };
+		8E311C2D16D674D500BD7D31 /* GameOverLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameOverLayer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -456,6 +475,7 @@
 		8E311A9316D648C000BD7D31 /* Co */ = {
 			isa = PBXGroup;
 			children = (
+				8E311C1916D64C9F00BD7D31 /* ResourcePack */,
 				8E311C0B16D648C300BD7D31 /* AppDelegate.h */,
 				8E311C0C16D648C300BD7D31 /* AppDelegate.m */,
 				8E311C0E16D648C300BD7D31 /* HelloWorldLayer.h */,
@@ -465,6 +485,8 @@
 				8E311A9416D648C000BD7D31 /* Resources */,
 				8E311AAE16D648C100BD7D31 /* libs */,
 				8E311C0716D648C300BD7D31 /* Supporting Files */,
+				8E311C2C16D674D500BD7D31 /* GameOverLayer.h */,
+				8E311C2D16D674D500BD7D31 /* GameOverLayer.m */,
 			);
 			path = Co;
 			sourceTree = "<group>";
@@ -832,6 +854,37 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		8E311C1916D64C9F00BD7D31 /* ResourcePack */ = {
+			isa = PBXGroup;
+			children = (
+				8E311C1A16D64C9F00BD7D31 /* Art */,
+				8E311C2116D64C9F00BD7D31 /* Sounds */,
+			);
+			path = ResourcePack;
+			sourceTree = "<group>";
+		};
+		8E311C1A16D64C9F00BD7D31 /* Art */ = {
+			isa = PBXGroup;
+			children = (
+				8E311C1B16D64C9F00BD7D31 /* monster-hd.png */,
+				8E311C1C16D64C9F00BD7D31 /* monster.png */,
+				8E311C1D16D64C9F00BD7D31 /* player-hd.png */,
+				8E311C1E16D64C9F00BD7D31 /* player.png */,
+				8E311C1F16D64C9F00BD7D31 /* projectile-hd.png */,
+				8E311C2016D64C9F00BD7D31 /* projectile.png */,
+			);
+			path = Art;
+			sourceTree = "<group>";
+		};
+		8E311C2116D64C9F00BD7D31 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				8E311C2216D64C9F00BD7D31 /* background-music-aac.caf */,
+				8E311C2316D64C9F00BD7D31 /* pew-pew-lei.caf */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -895,6 +948,14 @@
 				8E311AAA16D648C000BD7D31 /* Icon@2x.png in Resources */,
 				8E311AAD16D648C000BD7D31 /* iTunesArtwork in Resources */,
 				8E311BEB16D648C300BD7D31 /* ChangeLog in Resources */,
+				8E311C2416D64C9F00BD7D31 /* monster-hd.png in Resources */,
+				8E311C2516D64C9F00BD7D31 /* monster.png in Resources */,
+				8E311C2616D64C9F00BD7D31 /* player-hd.png in Resources */,
+				8E311C2716D64C9F00BD7D31 /* player.png in Resources */,
+				8E311C2816D64C9F00BD7D31 /* projectile-hd.png in Resources */,
+				8E311C2916D64C9F00BD7D31 /* projectile.png in Resources */,
+				8E311C2A16D64C9F00BD7D31 /* background-music-aac.caf in Resources */,
+				8E311C2B16D64C9F00BD7D31 /* pew-pew-lei.caf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1009,6 +1070,7 @@
 				8E311C0D16D648C300BD7D31 /* AppDelegate.m in Sources */,
 				8E311C1016D648C300BD7D31 /* HelloWorldLayer.m in Sources */,
 				8E311C1316D648C300BD7D31 /* IntroLayer.m in Sources */,
+				8E311C2E16D674D500BD7D31 /* GameOverLayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

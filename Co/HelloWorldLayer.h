@@ -11,10 +11,13 @@
 
 // When you import this file, you import all the cocos2d classes
 #import "cocos2d.h"
-
+#import "GameOverLayer.h"
 // HelloWorldLayer
-@interface HelloWorldLayer : CCLayer <GKAchievementViewControllerDelegate, GKLeaderboardViewControllerDelegate>
+@interface HelloWorldLayer : CCLayerColor <GKAchievementViewControllerDelegate, GKLeaderboardViewControllerDelegate>
 {
+    NSMutableArray * _monsters;
+    NSMutableArray * _projectiles;
+    int _monstersDestroyed;
 }
 
 // returns a CCScene that contains the HelloWorldLayer as the only child
